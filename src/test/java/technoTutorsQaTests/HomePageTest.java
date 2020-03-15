@@ -32,6 +32,12 @@ public class HomePageTest extends TechnoBase {
 		homePage = new HomePage();
 	}
 
+	@Test(priority = '0')
+	public void logotest() {
+		System.out.println(homePage.logovalidate());
+
+	}
+
 	@Test(priority = '1')
 	public void titletest() {
 		String Title = homePage.validatetitle();

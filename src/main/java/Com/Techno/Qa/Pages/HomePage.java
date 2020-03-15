@@ -12,8 +12,14 @@ import Com.Techno.Qa.Base.TechnoBase;
 
 public class HomePage extends TechnoBase {
 
+	@FindBy(xpath = "//img[@style=\"top:11px;\"]")
+	WebElement logo;
+
 	@FindBy(xpath = "//ul[@id=\"menu-tt-menu-1\"]/li[1]/a")
 	WebElement HomeButton;
+
+	@FindBy(xpath = "//ul[@id='menu-tt-menu-1']/li[2]/a")
+	WebElement aboutuslink;
 
 	@FindBy(xpath = "//*[@class='tp-rightarrow tparrows uranus  noSwipe']")
 	WebElement Rightarrow;
@@ -52,9 +58,20 @@ public class HomePage extends TechnoBase {
 		PageFactory.initElements(driver, this);
 	}
 
+	public Boolean logovalidate() {
+		return logo.isDisplayed();
+
+	}
+
 	public String validatetitle() {
 		return driver.getTitle();
 
+	}
+
+	public AboutUs aboutUs() {
+		Actions action = new Actions(driver);
+		action.moveToElement(aboutuslink).click().build().perform();
+		return new AboutUs();
 	}
 
 	public AboutUs Aboutus() {
@@ -99,13 +116,14 @@ public class HomePage extends TechnoBase {
 		return new SubjectAreas();
 
 	}
+
 	public void booktutor(String name, String email, String subject, String message) {
 		Name1.sendKeys(name);
 		Email1.sendKeys(email);
 		Subject1.sendKeys(subject);
 		Message1.sendKeys(message);
 		Send.click();
-		
+
 	}
 
 }

@@ -3,19 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="technoTutorsQaTests.HomePageTest">
+      <class name="technoTutorsQaTests.AboutUsTest">
         <methods>
-          <include name="tutor"/>
-          <include name="AboutusTest"/>
-          <include name="moreenglish"/>
-          <include name="moremaths"/>
-          <include name="setup"/>
-          <include name="morefrench"/>
           <include name="teardown"/>
-          <include name="Subjects"/>
-          <include name="titletest"/>
+          <include name="titlecheck"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- technoTutorsQaTests.HomePageTest -->
+      </class> <!-- technoTutorsQaTests.AboutUsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
