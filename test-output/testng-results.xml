@@ -1,21 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26328" started-at="2020-03-15T16:05:19 EDT" finished-at="2020-03-15T16:05:46 EDT">
+  <suite name="Default suite" duration-ms="103614" started-at="2020-03-15T19:54:09 EDT" finished-at="2020-03-15T19:55:53 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26328" started-at="2020-03-15T16:05:19 EDT" finished-at="2020-03-15T16:05:46 EDT">
+    <test name="Default test" duration-ms="103614" started-at="2020-03-15T19:54:09 EDT" finished-at="2020-03-15T19:55:53 EDT">
       <class name="technoTutorsQaTests.AboutUsTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.AboutUsTest@7d70d1b1]" name="setup" is-config="true" duration-ms="22781" started-at="2020-03-15T16:05:19 EDT" finished-at="2020-03-15T16:05:42 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="setup" is-config="true" duration-ms="22233" started-at="2020-03-15T19:54:09 EDT" finished-at="2020-03-15T19:54:32 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="titlecheck()[pri:49, instance:technoTutorsQaTests.AboutUsTest@7d70d1b1]" name="titlecheck" duration-ms="2617" started-at="2020-03-15T16:05:42 EDT" finished-at="2020-03-15T16:05:45 EDT">
+        <test-method status="PASS" signature="titlecheck()[pri:49, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="titlecheck" duration-ms="1619" started-at="2020-03-15T19:54:32 EDT" finished-at="2020-03-15T19:54:33 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titlecheck -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.AboutUsTest@7d70d1b1]" name="teardown" is-config="true" duration-ms="851" started-at="2020-03-15T16:05:45 EDT" finished-at="2020-03-15T16:05:46 EDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="teardown" is-config="true" duration-ms="767" started-at="2020-03-15T19:54:33 EDT" finished-at="2020-03-15T19:54:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="setup" is-config="true" duration-ms="20377" started-at="2020-03-15T19:54:35 EDT" finished-at="2020-03-15T19:54:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="contactus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:50, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="contactus" duration-ms="1038" started-at="2020-03-15T19:54:55 EDT" data-provider="getdata" finished-at="2020-03-15T19:54:56 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mehul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vijay123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactus -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="teardown" is-config="true" duration-ms="753" started-at="2020-03-15T19:54:56 EDT" finished-at="2020-03-15T19:54:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="setup" is-config="true" duration-ms="15872" started-at="2020-03-15T19:54:57 EDT" finished-at="2020-03-15T19:55:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="contactus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:50, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="contactus" duration-ms="1113" started-at="2020-03-15T19:55:13 EDT" data-provider="getdata" finished-at="2020-03-15T19:55:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sathish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kajal123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactus -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="teardown" is-config="true" duration-ms="998" started-at="2020-03-15T19:55:14 EDT" finished-at="2020-03-15T19:55:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="setup" is-config="true" duration-ms="16272" started-at="2020-03-15T19:55:15 EDT" finished-at="2020-03-15T19:55:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="contactus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:50, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="contactus" duration-ms="1143" started-at="2020-03-15T19:55:31 EDT" data-provider="getdata" finished-at="2020-03-15T19:55:33 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[janu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactus -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="teardown" is-config="true" duration-ms="779" started-at="2020-03-15T19:55:33 EDT" finished-at="2020-03-15T19:55:33 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="setup" is-config="true" duration-ms="17632" started-at="2020-03-15T19:55:33 EDT" finished-at="2020-03-15T19:55:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="contactus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:50, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="contactus" duration-ms="1160" started-at="2020-03-15T19:55:51 EDT" data-provider="getdata" finished-at="2020-03-15T19:55:52 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactus -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="teardown" is-config="true" duration-ms="794" started-at="2020-03-15T19:55:52 EDT" finished-at="2020-03-15T19:55:53 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
