@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="103614" started-at="2020-03-15T19:54:09 EDT" finished-at="2020-03-15T19:55:53 EDT">
+  <suite name="Default suite" duration-ms="103598" started-at="2020-03-16T15:07:34 EDT" finished-at="2020-03-16T15:09:17 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="103614" started-at="2020-03-15T19:54:09 EDT" finished-at="2020-03-15T19:55:53 EDT">
-      <class name="technoTutorsQaTests.AboutUsTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="setup" is-config="true" duration-ms="22233" started-at="2020-03-15T19:54:09 EDT" finished-at="2020-03-15T19:54:32 EDT">
+    <test name="Default test" duration-ms="103598" started-at="2020-03-16T15:07:34 EDT" finished-at="2020-03-16T15:09:17 EDT">
+      <class name="technoTutorsQaTests.FacilityTestClass">
+        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.FacilityTestClass@307f6b8c]" name="setup" is-config="true" duration-ms="23777" started-at="2020-03-16T15:07:34 EDT" finished-at="2020-03-16T15:07:58 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="titlecheck()[pri:49, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="titlecheck" duration-ms="1619" started-at="2020-03-15T19:54:32 EDT" finished-at="2020-03-15T19:54:33 EDT">
+        <test-method status="PASS" signature="titlecheck()[pri:49, instance:technoTutorsQaTests.FacilityTestClass@307f6b8c]" name="titlecheck" duration-ms="1565" started-at="2020-03-16T15:07:58 EDT" finished-at="2020-03-16T15:07:59 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titlecheck -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="teardown" is-config="true" duration-ms="767" started-at="2020-03-15T19:54:33 EDT" finished-at="2020-03-15T19:54:34 EDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.FacilityTestClass@307f6b8c]" name="teardown" is-config="true" duration-ms="743" started-at="2020-03-16T15:07:59 EDT" finished-at="2020-03-16T15:08:00 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="setup" is-config="true" duration-ms="20377" started-at="2020-03-15T19:54:35 EDT" finished-at="2020-03-15T19:54:55 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.FacilityTestClass@307f6b8c]" name="setup" is-config="true" duration-ms="15392" started-at="2020-03-16T15:08:01 EDT" finished-at="2020-03-16T15:08:17 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="contactus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:50, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="contactus" duration-ms="1038" started-at="2020-03-15T19:54:55 EDT" data-provider="getdata" finished-at="2020-03-15T19:54:56 EDT">
+        <test-method status="PASS" signature="contactus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:50, instance:technoTutorsQaTests.FacilityTestClass@307f6b8c]" name="contactus" duration-ms="1037" started-at="2020-03-16T15:08:17 EDT" data-provider="getdata" finished-at="2020-03-16T15:08:18 EDT">
           <params>
             <param index="0">
               <value>
@@ -49,15 +49,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactus -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="teardown" is-config="true" duration-ms="753" started-at="2020-03-15T19:54:56 EDT" finished-at="2020-03-15T19:54:57 EDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.FacilityTestClass@307f6b8c]" name="teardown" is-config="true" duration-ms="754" started-at="2020-03-16T15:08:18 EDT" finished-at="2020-03-16T15:08:18 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="setup" is-config="true" duration-ms="15872" started-at="2020-03-15T19:54:57 EDT" finished-at="2020-03-15T19:55:13 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.FacilityTestClass@307f6b8c]" name="setup" is-config="true" duration-ms="17745" started-at="2020-03-16T15:08:18 EDT" finished-at="2020-03-16T15:08:36 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="contactus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:50, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="contactus" duration-ms="1113" started-at="2020-03-15T19:55:13 EDT" data-provider="getdata" finished-at="2020-03-15T19:55:14 EDT">
+        <test-method status="PASS" signature="contactus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:50, instance:technoTutorsQaTests.FacilityTestClass@307f6b8c]" name="contactus" duration-ms="982" started-at="2020-03-16T15:08:36 EDT" data-provider="getdata" finished-at="2020-03-16T15:08:37 EDT">
           <params>
             <param index="0">
               <value>
@@ -83,15 +83,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactus -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="teardown" is-config="true" duration-ms="998" started-at="2020-03-15T19:55:14 EDT" finished-at="2020-03-15T19:55:15 EDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.FacilityTestClass@307f6b8c]" name="teardown" is-config="true" duration-ms="769" started-at="2020-03-16T15:08:37 EDT" finished-at="2020-03-16T15:08:38 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="setup" is-config="true" duration-ms="16272" started-at="2020-03-15T19:55:15 EDT" finished-at="2020-03-15T19:55:31 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.FacilityTestClass@307f6b8c]" name="setup" is-config="true" duration-ms="17623" started-at="2020-03-16T15:08:38 EDT" finished-at="2020-03-16T15:08:56 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="contactus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:50, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="contactus" duration-ms="1143" started-at="2020-03-15T19:55:31 EDT" data-provider="getdata" finished-at="2020-03-15T19:55:33 EDT">
+        <test-method status="PASS" signature="contactus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:50, instance:technoTutorsQaTests.FacilityTestClass@307f6b8c]" name="contactus" duration-ms="1062" started-at="2020-03-16T15:08:56 EDT" data-provider="getdata" finished-at="2020-03-16T15:08:57 EDT">
           <params>
             <param index="0">
               <value>
@@ -117,15 +117,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactus -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="teardown" is-config="true" duration-ms="779" started-at="2020-03-15T19:55:33 EDT" finished-at="2020-03-15T19:55:33 EDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.FacilityTestClass@307f6b8c]" name="teardown" is-config="true" duration-ms="1156" started-at="2020-03-16T15:08:57 EDT" finished-at="2020-03-16T15:08:58 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="setup" is-config="true" duration-ms="17632" started-at="2020-03-15T19:55:33 EDT" finished-at="2020-03-15T19:55:51 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.FacilityTestClass@307f6b8c]" name="setup" is-config="true" duration-ms="17748" started-at="2020-03-16T15:08:58 EDT" finished-at="2020-03-16T15:09:15 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="contactus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:50, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="contactus" duration-ms="1160" started-at="2020-03-15T19:55:51 EDT" data-provider="getdata" finished-at="2020-03-15T19:55:52 EDT">
+        <test-method status="PASS" signature="contactus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:50, instance:technoTutorsQaTests.FacilityTestClass@307f6b8c]" name="contactus" duration-ms="1105" started-at="2020-03-16T15:09:15 EDT" data-provider="getdata" finished-at="2020-03-16T15:09:17 EDT">
           <params>
             <param index="0">
               <value>
@@ -151,11 +151,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactus -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.AboutUsTest@307f6b8c]" name="teardown" is-config="true" duration-ms="794" started-at="2020-03-15T19:55:52 EDT" finished-at="2020-03-15T19:55:53 EDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.FacilityTestClass@307f6b8c]" name="teardown" is-config="true" duration-ms="843" started-at="2020-03-16T15:09:17 EDT" finished-at="2020-03-16T15:09:17 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- technoTutorsQaTests.AboutUsTest -->
+      </class> <!-- technoTutorsQaTests.FacilityTestClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

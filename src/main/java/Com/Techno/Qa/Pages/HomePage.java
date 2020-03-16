@@ -21,6 +21,9 @@ public class HomePage extends TechnoBase {
 	@FindBy(xpath = "//ul[@id='menu-tt-menu-1']/li[2]/a")
 	WebElement aboutuslink;
 
+	@FindBy(xpath = "//ul[@id='menu-tt-menu-1']/li[3]/a")
+	WebElement Facilitylink;
+
 	@FindBy(xpath = "//*[@class='tp-rightarrow tparrows uranus  noSwipe']")
 	WebElement Rightarrow;
 
@@ -72,6 +75,14 @@ public class HomePage extends TechnoBase {
 		Actions action = new Actions(driver);
 		action.moveToElement(aboutuslink).click().build().perform();
 		return new AboutUs();
+	}
+	
+	
+	public Facility facility() {
+		Actions action = new Actions(driver);
+		action.moveToElement(Facilitylink).click().build().perform();
+		return new Facility();
+		
 	}
 
 	public AboutUs Aboutus() {
