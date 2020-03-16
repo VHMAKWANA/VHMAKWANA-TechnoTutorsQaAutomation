@@ -24,6 +24,15 @@ public class HomePage extends TechnoBase {
 	@FindBy(xpath = "//ul[@id='menu-tt-menu-1']/li[3]/a")
 	WebElement Facilitylink;
 
+	@FindBy(xpath = "//ul[@id='menu-tt-menu-1']/li[4]/a")
+	WebElement subjectarealink;
+
+	@FindBy(xpath = "//ul[@id='menu-tt-menu-1']/li[5]/a")
+	WebElement contactuslink;
+
+	@FindBy(xpath = "//ul[@id='menu-tt-menu-1']/li[6]/a")
+	WebElement cartlink;
+
 	@FindBy(xpath = "//*[@class='tp-rightarrow tparrows uranus  noSwipe']")
 	WebElement Rightarrow;
 
@@ -54,7 +63,7 @@ public class HomePage extends TechnoBase {
 	@FindBy(xpath = "//*[@name='textarea-841']")
 	WebElement Message1;
 
-	@FindBy(xpath = "//*[@class=\"wpcf7-form-control wpcf7-submit\"]")
+	@FindBy(xpath = "//*[@class='wpcf7-form-control wpcf7-submit']")
 	WebElement Send;
 
 	public HomePage() {
@@ -76,13 +85,18 @@ public class HomePage extends TechnoBase {
 		action.moveToElement(aboutuslink).click().build().perform();
 		return new AboutUs();
 	}
-	
-	
+
 	public Facility facility() {
 		Actions action = new Actions(driver);
 		action.moveToElement(Facilitylink).click().build().perform();
 		return new Facility();
-		
+
+	}
+	public Contact ContactUS() {
+		Actions action = new Actions(driver);
+		action.moveToElement(contactuslink).click().build().perform();
+		return new Contact();
+
 	}
 
 	public AboutUs Aboutus() {
