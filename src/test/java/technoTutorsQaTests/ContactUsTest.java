@@ -37,12 +37,40 @@ public class ContactUsTest extends TechnoBase {
 		Assert.assertEquals(title, "Contact – Techno Tutors");
 
 	}
-	
+
 	@Test(priority = '2')
-	public void textcheck() {
-		Boolean B=contact.text();
+	public void logo() {
+		Boolean B = contact.logo();
 		Assert.assertTrue(B);
-		
+
+	}
+
+	@Test(priority = '3')
+	public void adress() {
+		Boolean B = contact.adress();
+		Assert.assertTrue(B);
+
+	}
+
+	@Test(priority = '4')
+	public void technotext() {
+		Boolean B = contact.technotext();
+		Assert.assertTrue(B);
+
+	}
+
+	@Test(priority = '5')
+	public void emailtext() {
+		Boolean B = contact.emailtext();
+		Assert.assertTrue(B);
+
+	}
+
+	@Test(priority = '6')
+	public void phonetext() {
+		Boolean B = contact.phonetext();
+		Assert.assertTrue(B);
+
 	}
 
 	@AfterMethod

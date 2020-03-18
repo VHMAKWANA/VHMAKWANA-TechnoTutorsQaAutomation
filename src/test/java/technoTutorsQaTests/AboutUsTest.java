@@ -31,7 +31,7 @@ public class AboutUsTest extends TechnoBase {
 		aboutUs = homePage.aboutUs();
 
 	}
-
+	
 	@Test(priority = '1')
 	public void titlecheck() {
 		String title = aboutUs.titleAboutUs();

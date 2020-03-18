@@ -51,11 +51,30 @@ public class Contact extends TechnoBase {
 
 	}
 
-	public Boolean text() {
-		 return logocontactus.isDisplayed();
-		
-
-		
+	public Boolean logo() {
+		return logocontactus.isDisplayed();
 
 	}
+
+	public Boolean adress() {
+		return adresstext.isDisplayed();
+
+	}
+
+	public Boolean technotext() {
+		return technotext.isDisplayed();
+
+	}
+
+	public Boolean emailtext() {
+		return emailtext.isDisplayed();
+
+	}
+
+	public Boolean phonetext() {
+		return phonenumtext.isDisplayed();
+
+	}
+
+
 }

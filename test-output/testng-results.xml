@@ -1,33 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55055" started-at="2020-03-16T16:25:37 EDT" finished-at="2020-03-16T16:26:32 EDT">
+  <suite name="Default suite" duration-ms="126676" started-at="2020-03-17T12:04:10 EDT" finished-at="2020-03-17T12:06:17 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="55055" started-at="2020-03-16T16:25:37 EDT" finished-at="2020-03-16T16:26:32 EDT">
+    <test name="Default test" duration-ms="126676" started-at="2020-03-17T12:04:10 EDT" finished-at="2020-03-17T12:06:17 EDT">
       <class name="technoTutorsQaTests.ContactUsTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="setup" is-config="true" duration-ms="26680" started-at="2020-03-16T16:25:37 EDT" finished-at="2020-03-16T16:26:04 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="setup" is-config="true" duration-ms="24157" started-at="2020-03-17T12:04:10 EDT" finished-at="2020-03-17T12:04:35 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="titlecheck()[pri:49, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="titlecheck" duration-ms="3852" started-at="2020-03-16T16:26:04 EDT" finished-at="2020-03-16T16:26:08 EDT">
+        <test-method status="PASS" signature="titlecheck()[pri:49, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="titlecheck" duration-ms="2060" started-at="2020-03-17T12:04:35 EDT" finished-at="2020-03-17T12:04:37 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titlecheck -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="teardown" is-config="true" duration-ms="1681" started-at="2020-03-16T16:26:08 EDT" finished-at="2020-03-16T16:26:10 EDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="teardown" is-config="true" duration-ms="806" started-at="2020-03-17T12:04:37 EDT" finished-at="2020-03-17T12:04:37 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="setup" is-config="true" duration-ms="21788" started-at="2020-03-16T16:26:10 EDT" finished-at="2020-03-16T16:26:31 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="setup" is-config="true" duration-ms="16749" started-at="2020-03-17T12:04:37 EDT" finished-at="2020-03-17T12:04:54 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="textcheck()[pri:50, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="textcheck" duration-ms="193" started-at="2020-03-16T16:26:31 EDT" finished-at="2020-03-16T16:26:32 EDT">
+        <test-method status="PASS" signature="logo()[pri:50, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="logo" duration-ms="124" started-at="2020-03-17T12:04:54 EDT" finished-at="2020-03-17T12:04:54 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- textcheck -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="teardown" is-config="true" duration-ms="783" started-at="2020-03-16T16:26:32 EDT" finished-at="2020-03-16T16:26:32 EDT">
+        </test-method> <!-- logo -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="teardown" is-config="true" duration-ms="786" started-at="2020-03-17T12:04:54 EDT" finished-at="2020-03-17T12:04:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="setup" is-config="true" duration-ms="19084" started-at="2020-03-17T12:04:55 EDT" finished-at="2020-03-17T12:05:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="adress()[pri:51, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="adress" duration-ms="104" started-at="2020-03-17T12:05:14 EDT" finished-at="2020-03-17T12:05:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adress -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="teardown" is-config="true" duration-ms="996" started-at="2020-03-17T12:05:14 EDT" finished-at="2020-03-17T12:05:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="setup" is-config="true" duration-ms="21219" started-at="2020-03-17T12:05:15 EDT" finished-at="2020-03-17T12:05:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="technotext()[pri:52, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="technotext" duration-ms="97" started-at="2020-03-17T12:05:37 EDT" finished-at="2020-03-17T12:05:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- technotext -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="teardown" is-config="true" duration-ms="779" started-at="2020-03-17T12:05:37 EDT" finished-at="2020-03-17T12:05:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="setup" is-config="true" duration-ms="18038" started-at="2020-03-17T12:05:37 EDT" finished-at="2020-03-17T12:05:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="emailtext()[pri:53, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="emailtext" duration-ms="87" started-at="2020-03-17T12:05:55 EDT" finished-at="2020-03-17T12:05:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailtext -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="teardown" is-config="true" duration-ms="801" started-at="2020-03-17T12:05:56 EDT" finished-at="2020-03-17T12:05:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="setup" is-config="true" duration-ms="19609" started-at="2020-03-17T12:05:56 EDT" finished-at="2020-03-17T12:06:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="phonetext()[pri:54, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="phonetext" duration-ms="261" started-at="2020-03-17T12:06:16 EDT" finished-at="2020-03-17T12:06:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phonetext -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.ContactUsTest@7d70d1b1]" name="teardown" is-config="true" duration-ms="793" started-at="2020-03-17T12:06:16 EDT" finished-at="2020-03-17T12:06:17 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
