@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="technoTutorsQaTests.AboutUsTest">
+      <class name="technoTutorsQaTests.SubjectAreaTest">
         <methods>
-          <include name="teardown"/>
-          <include name="titlecheck"/>
           <include name="setup"/>
-          <include name="contactus"/>
+          <include name="learnerandacadamic"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- technoTutorsQaTests.AboutUsTest -->
+      </class> <!-- technoTutorsQaTests.SubjectAreaTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

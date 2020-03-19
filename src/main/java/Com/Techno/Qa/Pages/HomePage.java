@@ -113,8 +113,8 @@ public class HomePage extends TechnoBase {
 	public SubjectAreas Subjects() {
 		Actions action = new Actions(driver);
 		WebDriverWait wait = new WebDriverWait(driver, 120);
-		wait.until(ExpectedConditions.elementToBeClickable(Subjects));
-		action.moveToElement(Subjects).click().build().perform();
+		wait.until(ExpectedConditions.elementToBeClickable(subjectarealink));
+		action.moveToElement(subjectarealink).click().build().perform();
 		return new SubjectAreas();
 	}
 
