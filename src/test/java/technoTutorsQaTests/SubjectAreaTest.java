@@ -28,8 +28,12 @@ public class SubjectAreaTest extends TechnoBase {
 		subjectAreas = homePage.Subjects();
 
 	}
+	@Test(priority = '0')
+	public void cotactUS() {
+		subjectAreas.Contact();
+	}
 
-	// @Test(priority = '1')
+	@Test(priority = '1')
 	public void titlecheck() {
 		String title = subjectAreas.titlesubjectarea();
 		System.out.println(title);
@@ -37,27 +41,63 @@ public class SubjectAreaTest extends TechnoBase {
 
 	}
 
-	// @Test(priority = '2')
+	@Test(priority = '2')
 	public void Logocheck() {
 		Assert.assertTrue(subjectAreas.logo());
 
 	}
 
-	//@Test(priority = '3')
+	@Test(priority = '3')
 	public void bookamathtutorlearner() {
 		subjectAreas.bookmathtutorearner();
 
 	}
 
-	//@Test(priority = '4')
+	@Test(priority = '4')
 	public void bookamathtutoracadamic() {
 		subjectAreas.bookmathtutoracadamic();
 
 	}
+
 	@Test(priority = '5')
-	public void learnerandacadamic() {
-		subjectAreas.Learnerplusacadamic();
-		System.out.println(subjectAreas.Learnerplusacadamic());
+	public void learnerandacadamicmath() {
+		subjectAreas.mathsLearnerplusacadamic();
+
+	}
+
+	@Test(priority = '6')
+	public void bookenglishtutorlearner() {
+		subjectAreas.bookenglishtutorlearner();
+
+	}
+
+	@Test(priority = '7')
+	public void bookenglishtutoracadamic() {
+		subjectAreas.bookenglishtutoracadamic();
+
+	}
+
+	@Test(priority = '8')
+	public void learnerandacadamicenglish() {
+		subjectAreas.englishLearnerplusacadamic();
+
+	}
+
+	@Test(priority = '9')
+	public void bookfrenchtutorlearner() {
+		subjectAreas.bookfrenchtutorlearner();
+
+	}
+
+	//@Test
+	public void bookefrenchtutoracadamic() {
+		subjectAreas.bookfrenchtutoracadamic();
+
+	}
+
+	//@Test
+	public void learnerandacadamicfrench() {
+		subjectAreas.frenchLearnerplusacadamic();
 
 	}
 
