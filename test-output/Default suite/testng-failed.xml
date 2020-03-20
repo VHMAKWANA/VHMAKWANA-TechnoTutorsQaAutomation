@@ -5,9 +5,19 @@
     <classes>
       <class name="technoTutorsQaTests.SubjectAreaTest">
         <methods>
+          <include name="bookamathtutorlearner"/>
+          <include name="cotactUS"/>
           <include name="setup"/>
-          <include name="learnerandacadamic"/>
+          <include name="Logocheck"/>
+          <include name="learnerandacadamicfrench"/>
           <include name="teardown"/>
+          <include name="bookamathtutoracadamic"/>
+          <include name="bookenglishtutoracadamic"/>
+          <include name="bookenglishtutorlearner"/>
+          <include name="bookfrenchtutorlearner"/>
+          <include name="bookefrenchtutoracadamic"/>
+          <include name="learnerandacadamicmath"/>
+          <include name="learnerandacadamicenglish"/>
         </methods>
       </class> <!-- technoTutorsQaTests.SubjectAreaTest -->
     </classes>

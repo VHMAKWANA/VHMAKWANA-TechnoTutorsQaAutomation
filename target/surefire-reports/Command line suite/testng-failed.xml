@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="technoTutorsQaTests.AboutUsTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="titlecheck"/>
+          <include name="setup"/>
+          <include name="contactus"/>
+        </methods>
+      </class> <!-- technoTutorsQaTests.AboutUsTest -->
+      <class name="technoTutorsQaTests.SubjectAreaTest">
+        <methods>
+          <include name="bookamathtutorlearner"/>
+          <include name="cotactUS"/>
+          <include name="setup"/>
+          <include name="Logocheck"/>
+          <include name="learnerandacadamicfrench"/>
+          <include name="teardown"/>
+          <include name="bookamathtutoracadamic"/>
+          <include name="bookenglishtutoracadamic"/>
+          <include name="bookenglishtutorlearner"/>
+          <include name="bookfrenchtutorlearner"/>
+          <include name="bookefrenchtutoracadamic"/>
+          <include name="learnerandacadamicmath"/>
+          <include name="titlecheck"/>
+          <include name="learnerandacadamicenglish"/>
+        </methods>
+      </class> <!-- technoTutorsQaTests.SubjectAreaTest -->
+      <class name="technoTutorsQaTests.ContactUsTest">
+        <methods>
+          <include name="phonetext"/>
+          <include name="titlecheck"/>
+          <include name="teardown"/>
+          <include name="adress"/>
+          <include name="emailtext"/>
+          <include name="logo"/>
+          <include name="technotext"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- technoTutorsQaTests.ContactUsTest -->
+      <class name="technoTutorsQaTests.HomePageTest">
+        <methods>
+          <include name="tutor"/>
+          <include name="AboutusTest"/>
+          <include name="logotest"/>
+          <include name="moreenglish"/>
+          <include name="moremaths"/>
+          <include name="setup"/>
+          <include name="morefrench"/>
+          <include name="teardown"/>
+          <include name="Subjects"/>
+          <include name="titletest"/>
+        </methods>
+      </class> <!-- technoTutorsQaTests.HomePageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
