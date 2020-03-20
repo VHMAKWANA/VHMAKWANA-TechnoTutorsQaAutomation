@@ -118,6 +118,16 @@ public class HomePage extends TechnoBase {
 		return new SubjectAreas();
 	}
 
+	public Cart cart() {
+		Actions action = new Actions(driver);
+		WebDriverWait wait = new WebDriverWait(driver, 120);
+		wait.until(ExpectedConditions.elementToBeClickable(subjectarealink));
+		action.moveToElement(cartlink).click().build().perform();
+		return new Cart();
+	}
+	
+	
+
 	public SubjectAreas mathsmore() {
 
 		Actions action = new Actions(driver);
