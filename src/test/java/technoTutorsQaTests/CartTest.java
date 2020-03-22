@@ -27,8 +27,7 @@ public class CartTest extends TechnoBase {
 	}
 
 	@Test(priority = 1)
-	public void Checkout() {
-
+	public void Checkout() throws InterruptedException {
 		cart.CheckOut();
 
 	}

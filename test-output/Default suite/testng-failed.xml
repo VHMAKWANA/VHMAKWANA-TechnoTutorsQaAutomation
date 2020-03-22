@@ -6,7 +6,6 @@
       <class name="technoTutorsQaTests.CartTest">
         <methods>
           <include name="Checkout"/>
-          <include name="teardown"/>
           <include name="setup"/>
         </methods>
       </class> <!-- technoTutorsQaTests.CartTest -->
