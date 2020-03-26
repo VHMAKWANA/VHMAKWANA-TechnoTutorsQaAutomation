@@ -34,8 +34,21 @@ public class CartTest extends TechnoBase {
 	
 	
 	@Test(priority = 2)
-	public void returningstudent() throws InterruptedException {
+	public void returningstudent()  {
 		cart.Returningstudent();
+
+	}
+	@Test(priority = 3)
+	public void Coupon() throws InterruptedException  {
+		cart.coupon();
+
+	}
+	
+	
+	
+	@Test(priority = 4)
+	public void placeOrder() {
+		cart.placeorder();
 
 	}
 

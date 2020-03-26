@@ -5,8 +5,8 @@
     <classes>
       <class name="technoTutorsQaTests.CartTest">
         <methods>
+          <include name="placeOrder"/>
           <include name="teardown"/>
-          <include name="returningstudent"/>
           <include name="setup"/>
         </methods>
       </class> <!-- technoTutorsQaTests.CartTest -->

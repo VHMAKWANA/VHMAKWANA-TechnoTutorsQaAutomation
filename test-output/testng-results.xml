@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40893" started-at="2020-03-25T23:03:45 EDT" finished-at="2020-03-25T23:04:26 EDT">
+  <suite name="Default suite" duration-ms="37941" started-at="2020-03-26T15:55:50 EDT" finished-at="2020-03-26T15:56:28 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40893" started-at="2020-03-25T23:03:45 EDT" finished-at="2020-03-25T23:04:26 EDT">
+    <test name="Default test" duration-ms="37941" started-at="2020-03-26T15:55:50 EDT" finished-at="2020-03-26T15:56:28 EDT">
       <class name="technoTutorsQaTests.CartTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.CartTest@86be70a]" name="setup" is-config="true" duration-ms="24682" started-at="2020-03-25T23:03:45 EDT" finished-at="2020-03-25T23:04:10 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:technoTutorsQaTests.CartTest@86be70a]" name="setup" is-config="true" duration-ms="22837" started-at="2020-03-26T15:55:50 EDT" finished-at="2020-03-26T15:56:13 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="returningstudent()[pri:2, instance:technoTutorsQaTests.CartTest@86be70a]" name="returningstudent" duration-ms="15306" started-at="2020-03-25T23:04:10 EDT" finished-at="2020-03-25T23:04:25 EDT">
+        <test-method status="PASS" signature="placeOrder()[pri:4, instance:technoTutorsQaTests.CartTest@86be70a]" name="placeOrder" duration-ms="14170" started-at="2020-03-26T15:56:13 EDT" finished-at="2020-03-26T15:56:27 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- returningstudent -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.CartTest@86be70a]" name="teardown" is-config="true" duration-ms="829" started-at="2020-03-25T23:04:25 EDT" finished-at="2020-03-25T23:04:26 EDT">
+        </test-method> <!-- placeOrder -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:technoTutorsQaTests.CartTest@86be70a]" name="teardown" is-config="true" duration-ms="863" started-at="2020-03-26T15:56:27 EDT" finished-at="2020-03-26T15:56:28 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
