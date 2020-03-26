@@ -19,13 +19,13 @@ public class SubjectAreas extends TechnoBase {
 	@FindBy(xpath = "//strong[text()='Subjects']")
 	WebElement SubjectText;
 
-	@FindBy(xpath = "//*[@id='post-1278']/div[1]/div[2]/div/div/div[2]/a")
+	@FindBy(xpath = "(//*[@href='/book-a-tutor/'])[1]")
 	WebElement mathstutor;
 
-	@FindBy(xpath = "//*[@id='post-1278']/div[2]/div[2]/div/div/div[2]/a")
+	@FindBy(xpath = "(//*[@href='/book-a-tutor/'])[2]")
 	WebElement Englishtutor;
 
-	@FindBy(xpath = "//*[@id='post-1278']/div[3]/div[2]/div/div/div[2]/a")
+	@FindBy(xpath = "(//*[@href='/book-a-tutor/'])[3]")
 	WebElement frenchtutor;
 
 	@FindBy(xpath = "//*[text()='$120 / Month']")

@@ -1,5 +1,6 @@
 package Com.Techno.Qa.Pages;
 
+import org.apache.poi.hssf.record.PageBreakRecord.Break;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -12,7 +13,7 @@ import Com.Techno.Qa.Base.TechnoBase;
 
 public class HomePage extends TechnoBase {
 
-	@FindBy(xpath = "//img[@style=\"top:11px;\"]")
+	@FindBy(xpath = "//img[@style='top:11px;']")
 	WebElement logo;
 
 	@FindBy(xpath = "//ul[@id=\"menu-tt-menu-1\"]/li[1]/a")
@@ -35,6 +36,9 @@ public class HomePage extends TechnoBase {
 
 	@FindBy(xpath = "//*[@class='tp-rightarrow tparrows uranus  noSwipe']")
 	WebElement Rightarrow;
+
+	@FindBy(xpath = "//*[@class='tp-leftarrow tparrows uranus  noSwipe']")
+	WebElement Leftarrow;
 
 	@FindBy(xpath = "//div[@id=\"slide-2-layer-6\"]/a")
 	WebElement Aboutus;
@@ -66,6 +70,21 @@ public class HomePage extends TechnoBase {
 	@FindBy(xpath = "//*[@class='wpcf7-form-control wpcf7-submit']")
 	WebElement Send;
 
+	@FindBy(xpath = "(//span[@class='wpcf7-not-valid-tip'])[1]")
+	WebElement Errorname;
+
+	@FindBy(xpath = "(//span[@class='wpcf7-not-valid-tip'])[2]")
+	WebElement Erroremail;
+
+	@FindBy(xpath = "(//span[@class='wpcf7-not-valid-tip'])[3]")
+	WebElement Errorsubject;
+
+	@FindBy(xpath = "(//span[@class='wpcf7-not-valid-tip'])[1]")
+	WebElement Errormessage;
+
+	@FindBy(xpath = "//*[@class='wpcf7-response-output wpcf7-display-none wpcf7-validation-errors']")
+	WebElement Errorsend;
+
 	public HomePage() {
 		PageFactory.initElements(driver, this);
 	}
@@ -92,6 +111,7 @@ public class HomePage extends TechnoBase {
 		return new Facility();
 
 	}
+
 	public Contact ContactUS() {
 		Actions action = new Actions(driver);
 		action.moveToElement(contactuslink).click().build().perform();
@@ -125,8 +145,6 @@ public class HomePage extends TechnoBase {
 		action.moveToElement(cartlink).click().build().perform();
 		return new Cart();
 	}
-	
-	
 
 	public SubjectAreas mathsmore() {
 
@@ -151,13 +169,51 @@ public class HomePage extends TechnoBase {
 		return new SubjectAreas();
 
 	}
+	public void errorbooktutor() {
+
+		Name1.sendKeys("");
+		Email1.sendKeys("");
+		Subject1.sendKeys("");
+        Message1.sendKeys("");
+        Send.click();
+        System.out.println(Errorname.getText());
+        System.out.println(Erroremail.getText());
+        System.out.println(Errorsubject.getText());
+        System.out.println(Errormessage.getText());
+        System.out.println(Errorsend.getText());
+	}
+	
 
 	public void booktutor(String name, String email, String subject, String message) {
+
 		Name1.sendKeys(name);
 		Email1.sendKeys(email);
 		Subject1.sendKeys(subject);
-		Message1.sendKeys(message);
-		Send.click();
+        Message1.sendKeys(message);
+        Send.click();
+		
+		if (Errorname.isDisplayed()) {
+
+			System.out.println(Errorname.getText());
+		
+		}
+		else if(Erroremail.isDisplayed()) {
+			System.out.println(Erroremail.getText());
+		}
+		else if(Errorsubject.isDisplayed()) {
+			System.out.println(Errorsubject.getText());
+		}
+		else if(Errormessage.isDisplayed()) {
+			System.out.println(Errormessage.getText());
+		}
+		else if(Errorsend.isDisplayed()) {
+			System.out.println(Errorsend.getText());
+		}
+		else {
+			
+			System.out.println();
+		}
+		
 
 	}
 

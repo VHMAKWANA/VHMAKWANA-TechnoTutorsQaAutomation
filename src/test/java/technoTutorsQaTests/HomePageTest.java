@@ -34,6 +34,7 @@ public class HomePageTest extends TechnoBase {
 
 	@Test(priority = '0')
 	public void logotest() {
+		
 		System.out.println(homePage.logovalidate());
 
 	}
@@ -73,6 +74,13 @@ public class HomePageTest extends TechnoBase {
 		subjectAreas = homePage.frenchmore();
 
 	}
+	@Test(priority = '7')
+	public void errormessage() {
+		homePage.errorbooktutor();
+
+	}
+	
+	
 
 	@DataProvider
 	public Object[][] getdata() {
@@ -80,10 +88,12 @@ public class HomePageTest extends TechnoBase {
 		return data;
 	}
 
-	@Test(dataProvider = "getdata", priority = '7')
+	@Test(dataProvider = "getdata", priority = '8')
 	public void tutor(String name, String email, String subject, String message) {
 		homePage.booktutor(name, email, subject, message);
 	}
+	
+	
 
 	@AfterMethod
 	public void teardown() {
