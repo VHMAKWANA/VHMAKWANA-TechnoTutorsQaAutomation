@@ -31,6 +31,13 @@ public class CartTest extends TechnoBase {
 		cart.CheckOut();
 
 	}
+	
+	
+	@Test(priority = 2)
+	public void returningstudent() throws InterruptedException {
+		cart.Returningstudent();
+
+	}
 
 	@AfterMethod
 	public void teardown() {

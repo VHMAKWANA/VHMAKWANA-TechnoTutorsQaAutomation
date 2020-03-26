@@ -50,6 +50,36 @@ public class Cart extends TechnoBase {
 	@FindBy(xpath = "//a[@class='checkout-button button alt wc-forward']")
 	WebElement CheckOut;
 
+	@FindBy(xpath = "//a[@class='showlogin']")
+	WebElement ReturningCustomer;
+
+	@FindBy(xpath = "//input[@id='username']")
+	WebElement UserName;
+
+	@FindBy(xpath = "//input[@id='password']")
+	WebElement Password;
+
+	@FindBy(xpath = "//ul[@class='woocommerce-error']")
+	WebElement invallidemail;
+
+	@FindBy(xpath = "//input[@id='rememberme']")
+	WebElement RememberMe;
+
+	@FindBy(xpath = "//button[@name='login']")
+	WebElement send;
+
+	@FindBy(xpath = "//a[@href='https://www.technotutors.ca/my-account/lost-password/']")
+	WebElement Forgetpass;
+
+	@FindBy(xpath = "//input[@id='user_login']")
+	WebElement forgetpassemail;
+
+	@FindBy(xpath = "//button[@value='Reset password']")
+	WebElement Resetpass;
+
+	@FindBy(xpath = "//ul[@class='woocommerce-error']")
+	WebElement ResetpassError;
+
 	public Cart() {
 		PageFactory.initElements(driver, this);
 	}
@@ -63,7 +93,6 @@ public class Cart extends TechnoBase {
 		viewcart.click();
 		Quantity.clear();
 		Quantity.sendKeys("2");
-
 		CouponCode.sendKeys("kajal");
 		ApplyCoupon.click();
 		System.out.println(Error.getText());
@@ -71,12 +100,29 @@ public class Cart extends TechnoBase {
 		cancel.click();
 		Thread.sleep(10000);
 		UpdateCart.click();
-
 		System.out.println(Subtotal.getText());
-
 		CheckOut.click();
-
 		System.out.println(driver.getTitle());
+
+	}
+
+	public void Returningstudent() throws InterruptedException {
+		ReturntoShop.click();
+		Acadamiccart.click();
+		viewcart.click();
+		CheckOut.click();
+		ReturningCustomer.click();
+		UserName.sendKeys("abc");
+		Password.sendKeys("abc");
+		RememberMe.click();
+		send.click();
+		System.out.println(invallidemail.getText());
+		WebDriverWait wait = new WebDriverWait(driver, 120);
+		wait.until(ExpectedConditions.elementToBeClickable(ReturningCustomer)).click();
+		Forgetpass.click();
+		forgetpassemail.sendKeys("abc");
+		Resetpass.click();
+		System.out.println(ResetpassError.getText());
 
 	}
 
